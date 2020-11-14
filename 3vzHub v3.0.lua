@@ -296,7 +296,7 @@ Close2.Text = "X"
 Close2.TextColor3 = Color3.fromRGB(170, 0, 0)
 Close2.TextSize = 14.000
 Close2.MouseButton1Down:connect (function()
-	Main1.Visible = false
+	Main2.Visible = false
 end)
 
 OpenHC.Name = "OpenHC"
@@ -1536,7 +1536,7 @@ CloseSF.Text = "X"
 CloseSF.TextColor3 = Color3.fromRGB(170, 0, 0)
 CloseSF.TextSize = 14.000
 CloseSF.MouseButton1Down:connect (function()
-	CloseSF.Visible = false
+	ScrollingFrame.Visible = false
 end)
 
 -- Scripts:
