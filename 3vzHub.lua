@@ -47,10 +47,10 @@ local function IJGDINK_fake_script() -- Detecting.LocalScript
 	local Detecting = script.Parent
 	
 	if game.PlaceId == 2619187362 then
-		wait(3)
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/EyassSy/3vzHub/main/SPFS%203vzHub.lua", true))()
+		wait(2)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/EyassSy/3vzHub/main/SPFS_3vzHub", true))()
 	elseif game.PlaceId == 286090429 then
-		wait(3)
+		wait(2)
 		loadstring(game:HttpGet("https://pastebin.com/raw/6Xmai9q7", true))()
 		Detecting.Visible = false
 	end
