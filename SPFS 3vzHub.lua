@@ -493,13 +493,15 @@ ScrollingFrame.Parent = SPFS
 ScrollingFrame.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
 ScrollingFrame.BackgroundTransparency = 0.500
 ScrollingFrame.BorderSizePixel = 2
-ScrollingFrame.Position = UDim2.new(0.445473999, 0, 0.0835380778, 0)
-ScrollingFrame.Selectable = true
+ScrollingFrame.Position = UDim2.new(0.439059138, 0, 0.0835380852, 0)
 ScrollingFrame.Size = UDim2.new(0, 454, 0, 252)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 0, 1500)
+ScrollingFrame.ScrollBarThickness = 8
 ScrollingFrame.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Left
 ScrollingFrame.Visible = false
 ScrollingFrame.Draggable = true
 ScrollingFrame.Active = true
+ScrollingFrame.Selectable = true
 
 Teleports.Name = "Teleports"
 Teleports.Parent = ScrollingFrame
@@ -1541,7 +1543,7 @@ end)
 
 -- Scripts:
 
-local function FGDLTUV_fake_script() -- TrainStrengthB.LocalScript 
+local function ARDWMT_fake_script() -- TrainStrengthB.LocalScript 
 	local script = Instance.new('LocalScript', TrainStrengthB)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -1563,8 +1565,8 @@ local function FGDLTUV_fake_script() -- TrainStrengthB.LocalScript
 	    end
 	end)
 end
-coroutine.wrap(FGDLTUV_fake_script)()
-local function QBOGX_fake_script() -- TrainPsychicB.LocalScript 
+coroutine.wrap(ARDWMT_fake_script)()
+local function HWTOOOC_fake_script() -- TrainPsychicB.LocalScript 
 	local script = Instance.new('LocalScript', TrainPsychicB)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -1586,8 +1588,8 @@ local function QBOGX_fake_script() -- TrainPsychicB.LocalScript
 	    end
 	end)
 end
-coroutine.wrap(QBOGX_fake_script)()
-local function ORIKHZ_fake_script() -- TrainEnduranceB.LocalScript 
+coroutine.wrap(HWTOOOC_fake_script)()
+local function MASX_fake_script() -- TrainEnduranceB.LocalScript 
 	local script = Instance.new('LocalScript', TrainEnduranceB)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -1609,8 +1611,8 @@ local function ORIKHZ_fake_script() -- TrainEnduranceB.LocalScript
 	    end
 	end)
 end
-coroutine.wrap(ORIKHZ_fake_script)()
-local function VYDXYC_fake_script() -- OpenHCB.LocalScript 
+coroutine.wrap(MASX_fake_script)()
+local function OBPTN_fake_script() -- OpenHCB.LocalScript 
 	local script = Instance.new('LocalScript', OpenHCB)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -1632,8 +1634,8 @@ local function VYDXYC_fake_script() -- OpenHCB.LocalScript
 	    end
 	end)
 end
-coroutine.wrap(VYDXYC_fake_script)()
-local function KJIUUKA_fake_script() -- DailyStrengthB.LocalScript 
+coroutine.wrap(OBPTN_fake_script)()
+local function WJHPSYC_fake_script() -- DailyStrengthB.LocalScript 
 	local script = Instance.new('LocalScript', DailyStrengthB)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -1655,8 +1657,8 @@ local function KJIUUKA_fake_script() -- DailyStrengthB.LocalScript
 	    end
 	end)
 end
-coroutine.wrap(KJIUUKA_fake_script)()
-local function HNPSXMZ_fake_script() -- DailyPsychicB.LocalScript 
+coroutine.wrap(WJHPSYC_fake_script)()
+local function POJNODA_fake_script() -- DailyPsychicB.LocalScript 
 	local script = Instance.new('LocalScript', DailyPsychicB)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -1678,8 +1680,8 @@ local function HNPSXMZ_fake_script() -- DailyPsychicB.LocalScript
 	    end
 	end)
 end
-coroutine.wrap(HNPSXMZ_fake_script)()
-local function AFHQEJM_fake_script() -- DailyEnduranceB.LocalScript 
+coroutine.wrap(POJNODA_fake_script)()
+local function ZPXVF_fake_script() -- DailyEnduranceB.LocalScript 
 	local script = Instance.new('LocalScript', DailyEnduranceB)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -1701,8 +1703,8 @@ local function AFHQEJM_fake_script() -- DailyEnduranceB.LocalScript
 	    end
 	end)
 end
-coroutine.wrap(AFHQEJM_fake_script)()
-local function NJIM_fake_script() -- WeeklyStrengthB.LocalScript 
+coroutine.wrap(ZPXVF_fake_script)()
+local function EQZJ_fake_script() -- WeeklyStrengthB.LocalScript 
 	local script = Instance.new('LocalScript', WeeklyStrengthB)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -1724,8 +1726,8 @@ local function NJIM_fake_script() -- WeeklyStrengthB.LocalScript
 	    end
 	end)
 end
-coroutine.wrap(NJIM_fake_script)()
-local function ZXTUJX_fake_script() -- WeeklyEnduranceB.LocalScript 
+coroutine.wrap(EQZJ_fake_script)()
+local function XQRY_fake_script() -- WeeklyEnduranceB.LocalScript 
 	local script = Instance.new('LocalScript', WeeklyEnduranceB)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -1747,8 +1749,8 @@ local function ZXTUJX_fake_script() -- WeeklyEnduranceB.LocalScript
 	    end
 	end)
 end
-coroutine.wrap(ZXTUJX_fake_script)()
-local function OCDWUF_fake_script() -- WeeklyPsychicB.LocalScript 
+coroutine.wrap(XQRY_fake_script)()
+local function GVJAEF_fake_script() -- WeeklyPsychicB.LocalScript 
 	local script = Instance.new('LocalScript', WeeklyPsychicB)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -1770,8 +1772,8 @@ local function OCDWUF_fake_script() -- WeeklyPsychicB.LocalScript
 	    end
 	end)
 end
-coroutine.wrap(OCDWUF_fake_script)()
-local function BJAHT_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(GVJAEF_fake_script)()
+local function UOAAB_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -1815,8 +1817,8 @@ local function BJAHT_fake_script() -- TextButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BJAHT_fake_script)()
-local function SFMQ_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(UOAAB_fake_script)()
+local function UPXVUNE_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -1860,8 +1862,8 @@ local function SFMQ_fake_script() -- TextButton_3.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SFMQ_fake_script)()
-local function RWRMQO_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(UPXVUNE_fake_script)()
+local function JRUK_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -1905,8 +1907,8 @@ local function RWRMQO_fake_script() -- TextButton_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(RWRMQO_fake_script)()
-local function ABSYJCC_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(JRUK_fake_script)()
+local function VUSFLA_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -1950,8 +1952,8 @@ local function ABSYJCC_fake_script() -- TextButton_5.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ABSYJCC_fake_script)()
-local function YRKJ_fake_script() -- TextButton_6.LocalScript 
+coroutine.wrap(VUSFLA_fake_script)()
+local function AZHUHOP_fake_script() -- TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_6)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -1995,8 +1997,8 @@ local function YRKJ_fake_script() -- TextButton_6.LocalScript
 	    end
 	end)
 end
-coroutine.wrap(YRKJ_fake_script)()
-local function MIWFQGT_fake_script() -- TextButton_7.LocalScript 
+coroutine.wrap(AZHUHOP_fake_script)()
+local function NJGH_fake_script() -- TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_7)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -2040,8 +2042,8 @@ local function MIWFQGT_fake_script() -- TextButton_7.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MIWFQGT_fake_script)()
-local function DKBQV_fake_script() -- TextButton_8.LocalScript 
+coroutine.wrap(NJGH_fake_script)()
+local function QKOJDK_fake_script() -- TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_8)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -2085,8 +2087,8 @@ local function DKBQV_fake_script() -- TextButton_8.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DKBQV_fake_script)()
-local function KWIO_fake_script() -- TextButton_9.LocalScript 
+coroutine.wrap(QKOJDK_fake_script)()
+local function EWEZU_fake_script() -- TextButton_9.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_9)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -2130,8 +2132,8 @@ local function KWIO_fake_script() -- TextButton_9.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KWIO_fake_script)()
-local function DVCLEG_fake_script() -- TextButton_10.LocalScript 
+coroutine.wrap(EWEZU_fake_script)()
+local function OTQES_fake_script() -- TextButton_10.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_10)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -2175,8 +2177,8 @@ local function DVCLEG_fake_script() -- TextButton_10.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DVCLEG_fake_script)()
-local function TLTJ_fake_script() -- TextButton_11.LocalScript 
+coroutine.wrap(OTQES_fake_script)()
+local function PIWFY_fake_script() -- TextButton_11.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_11)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -2220,8 +2222,8 @@ local function TLTJ_fake_script() -- TextButton_11.LocalScript
 		end
 	end)
 end
-coroutine.wrap(TLTJ_fake_script)()
-local function MDLKYY_fake_script() -- TextButton_12.LocalScript 
+coroutine.wrap(PIWFY_fake_script)()
+local function YGUPNK_fake_script() -- TextButton_12.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_12)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -2265,8 +2267,8 @@ local function MDLKYY_fake_script() -- TextButton_12.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MDLKYY_fake_script)()
-local function LMJI_fake_script() -- TextButton_13.LocalScript 
+coroutine.wrap(YGUPNK_fake_script)()
+local function ZAPZOFZ_fake_script() -- TextButton_13.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_13)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -2310,8 +2312,8 @@ local function LMJI_fake_script() -- TextButton_13.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LMJI_fake_script)()
-local function JZQUX_fake_script() -- TextButton_14.LocalScript 
+coroutine.wrap(ZAPZOFZ_fake_script)()
+local function FEZOL_fake_script() -- TextButton_14.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_14)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -2355,8 +2357,8 @@ local function JZQUX_fake_script() -- TextButton_14.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JZQUX_fake_script)()
-local function WYUV_fake_script() -- TextButton_15.LocalScript 
+coroutine.wrap(FEZOL_fake_script)()
+local function YRHDC_fake_script() -- TextButton_15.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_15)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -2400,8 +2402,8 @@ local function WYUV_fake_script() -- TextButton_15.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WYUV_fake_script)()
-local function CCSDMWA_fake_script() -- TextButton_16.LocalScript 
+coroutine.wrap(YRHDC_fake_script)()
+local function WUAW_fake_script() -- TextButton_16.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_16)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -2445,8 +2447,8 @@ local function CCSDMWA_fake_script() -- TextButton_16.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CCSDMWA_fake_script)()
-local function PEDMJLC_fake_script() -- TextButton_17.LocalScript 
+coroutine.wrap(WUAW_fake_script)()
+local function LBGOQF_fake_script() -- TextButton_17.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_17)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -2490,8 +2492,8 @@ local function PEDMJLC_fake_script() -- TextButton_17.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PEDMJLC_fake_script)()
-local function NXLGECL_fake_script() -- TextButton_18.LocalScript 
+coroutine.wrap(LBGOQF_fake_script)()
+local function GDYC_fake_script() -- TextButton_18.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_18)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -2535,8 +2537,8 @@ local function NXLGECL_fake_script() -- TextButton_18.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NXLGECL_fake_script)()
-local function MKTF_fake_script() -- TextButton_19.LocalScript 
+coroutine.wrap(GDYC_fake_script)()
+local function AVUSVS_fake_script() -- TextButton_19.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_19)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -2580,8 +2582,8 @@ local function MKTF_fake_script() -- TextButton_19.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MKTF_fake_script)()
-local function VPOM_fake_script() -- TextButton_20.LocalScript 
+coroutine.wrap(AVUSVS_fake_script)()
+local function DSIKB_fake_script() -- TextButton_20.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_20)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -2625,8 +2627,8 @@ local function VPOM_fake_script() -- TextButton_20.LocalScript
 		end
 	end)
 end
-coroutine.wrap(VPOM_fake_script)()
-local function UALUAD_fake_script() -- TextButton_21.LocalScript 
+coroutine.wrap(DSIKB_fake_script)()
+local function LCJTIX_fake_script() -- TextButton_21.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_21)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -2670,8 +2672,8 @@ local function UALUAD_fake_script() -- TextButton_21.LocalScript
 		end
 	end)
 end
-coroutine.wrap(UALUAD_fake_script)()
-local function PWTGQ_fake_script() -- TextButton_22.LocalScript 
+coroutine.wrap(LCJTIX_fake_script)()
+local function KLAUYY_fake_script() -- TextButton_22.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_22)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -2715,8 +2717,8 @@ local function PWTGQ_fake_script() -- TextButton_22.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PWTGQ_fake_script)()
-local function WZHTQU_fake_script() -- TextButton_23.LocalScript 
+coroutine.wrap(KLAUYY_fake_script)()
+local function ODPZDGL_fake_script() -- TextButton_23.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_23)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -2760,8 +2762,8 @@ local function WZHTQU_fake_script() -- TextButton_23.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WZHTQU_fake_script)()
-local function XDVLB_fake_script() -- TextButton_24.LocalScript 
+coroutine.wrap(ODPZDGL_fake_script)()
+local function NXORAQ_fake_script() -- TextButton_24.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_24)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -2805,8 +2807,8 @@ local function XDVLB_fake_script() -- TextButton_24.LocalScript
 		end
 	end)
 end
-coroutine.wrap(XDVLB_fake_script)()
-local function FQPLOEE_fake_script() -- TextButton_25.LocalScript 
+coroutine.wrap(NXORAQ_fake_script)()
+local function EUALOWY_fake_script() -- TextButton_25.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_25)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -2850,8 +2852,8 @@ local function FQPLOEE_fake_script() -- TextButton_25.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FQPLOEE_fake_script)()
-local function SCQF_fake_script() -- TextButton_26.LocalScript 
+coroutine.wrap(EUALOWY_fake_script)()
+local function GVUC_fake_script() -- TextButton_26.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_26)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -2895,8 +2897,8 @@ local function SCQF_fake_script() -- TextButton_26.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SCQF_fake_script)()
-local function EPCXQGY_fake_script() -- TextButton_27.LocalScript 
+coroutine.wrap(GVUC_fake_script)()
+local function FCTGEKT_fake_script() -- TextButton_27.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_27)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -2940,8 +2942,8 @@ local function EPCXQGY_fake_script() -- TextButton_27.LocalScript
 		end
 	end)
 end
-coroutine.wrap(EPCXQGY_fake_script)()
-local function OTTW_fake_script() -- TextButton_28.LocalScript 
+coroutine.wrap(FCTGEKT_fake_script)()
+local function JBZO_fake_script() -- TextButton_28.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_28)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -2985,8 +2987,8 @@ local function OTTW_fake_script() -- TextButton_28.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OTTW_fake_script)()
-local function QLURA_fake_script() -- TextButton_29.LocalScript 
+coroutine.wrap(JBZO_fake_script)()
+local function BGUFUC_fake_script() -- TextButton_29.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_29)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -3030,8 +3032,8 @@ local function QLURA_fake_script() -- TextButton_29.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QLURA_fake_script)()
-local function FHUI_fake_script() -- TextButton_30.LocalScript 
+coroutine.wrap(BGUFUC_fake_script)()
+local function CYTT_fake_script() -- TextButton_30.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_30)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -3075,8 +3077,8 @@ local function FHUI_fake_script() -- TextButton_30.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FHUI_fake_script)()
-local function LTSQW_fake_script() -- TextButton_31.LocalScript 
+coroutine.wrap(CYTT_fake_script)()
+local function ZPZR_fake_script() -- TextButton_31.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_31)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -3120,8 +3122,8 @@ local function LTSQW_fake_script() -- TextButton_31.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LTSQW_fake_script)()
-local function VJLDJ_fake_script() -- TextButton_32.LocalScript 
+coroutine.wrap(ZPZR_fake_script)()
+local function MZXQPGM_fake_script() -- TextButton_32.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_32)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -3165,8 +3167,8 @@ local function VJLDJ_fake_script() -- TextButton_32.LocalScript
 		end
 	end)
 end
-coroutine.wrap(VJLDJ_fake_script)()
-local function GWPEK_fake_script() -- TextButton_33.LocalScript 
+coroutine.wrap(MZXQPGM_fake_script)()
+local function ZUCTF_fake_script() -- TextButton_33.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_33)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -3210,8 +3212,8 @@ local function GWPEK_fake_script() -- TextButton_33.LocalScript
 		end
 	end)
 end
-coroutine.wrap(GWPEK_fake_script)()
-local function YHAO_fake_script() -- TextButton_34.LocalScript 
+coroutine.wrap(ZUCTF_fake_script)()
+local function CSGNRWB_fake_script() -- TextButton_34.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_34)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -3255,8 +3257,8 @@ local function YHAO_fake_script() -- TextButton_34.LocalScript
 		end
 	end)
 end
-coroutine.wrap(YHAO_fake_script)()
-local function NLVFWW_fake_script() -- TextButton_35.LocalScript 
+coroutine.wrap(CSGNRWB_fake_script)()
+local function MNNOOSO_fake_script() -- TextButton_35.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_35)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -3300,8 +3302,8 @@ local function NLVFWW_fake_script() -- TextButton_35.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NLVFWW_fake_script)()
-local function QLNDI_fake_script() -- TextButton_36.LocalScript 
+coroutine.wrap(MNNOOSO_fake_script)()
+local function RGNRKC_fake_script() -- TextButton_36.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_36)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -3345,8 +3347,8 @@ local function QLNDI_fake_script() -- TextButton_36.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QLNDI_fake_script)()
-local function CFZINOU_fake_script() -- TextButton_37.LocalScript 
+coroutine.wrap(RGNRKC_fake_script)()
+local function COOOXZ_fake_script() -- TextButton_37.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_37)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -3390,8 +3392,8 @@ local function CFZINOU_fake_script() -- TextButton_37.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CFZINOU_fake_script)()
-local function UFQEFF_fake_script() -- TextButton_38.LocalScript 
+coroutine.wrap(COOOXZ_fake_script)()
+local function NDTGDXK_fake_script() -- TextButton_38.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_38)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -3435,8 +3437,8 @@ local function UFQEFF_fake_script() -- TextButton_38.LocalScript
 		end
 	end)
 end
-coroutine.wrap(UFQEFF_fake_script)()
-local function AOITP_fake_script() -- TextButton_39.LocalScript 
+coroutine.wrap(NDTGDXK_fake_script)()
+local function NTAJPG_fake_script() -- TextButton_39.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_39)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -3480,8 +3482,8 @@ local function AOITP_fake_script() -- TextButton_39.LocalScript
 		end
 	end)
 end
-coroutine.wrap(AOITP_fake_script)()
-local function QDPOQTN_fake_script() -- TextButton_40.LocalScript 
+coroutine.wrap(NTAJPG_fake_script)()
+local function ZQVB_fake_script() -- TextButton_40.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_40)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -3525,8 +3527,8 @@ local function QDPOQTN_fake_script() -- TextButton_40.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QDPOQTN_fake_script)()
-local function NUHIWRD_fake_script() -- TextButton_41.LocalScript 
+coroutine.wrap(ZQVB_fake_script)()
+local function ZPXGHUU_fake_script() -- TextButton_41.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_41)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -3570,8 +3572,8 @@ local function NUHIWRD_fake_script() -- TextButton_41.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NUHIWRD_fake_script)()
-local function BQEVQ_fake_script() -- TextButton_42.LocalScript 
+coroutine.wrap(ZPXGHUU_fake_script)()
+local function PANQEUH_fake_script() -- TextButton_42.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_42)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -3615,8 +3617,8 @@ local function BQEVQ_fake_script() -- TextButton_42.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BQEVQ_fake_script)()
-local function QDVB_fake_script() -- TextButton_43.LocalScript 
+coroutine.wrap(PANQEUH_fake_script)()
+local function TFYNMIC_fake_script() -- TextButton_43.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_43)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -3660,8 +3662,8 @@ local function QDVB_fake_script() -- TextButton_43.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QDVB_fake_script)()
-local function NSCK_fake_script() -- TextButton_44.LocalScript 
+coroutine.wrap(TFYNMIC_fake_script)()
+local function XNRCRI_fake_script() -- TextButton_44.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_44)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -3705,8 +3707,8 @@ local function NSCK_fake_script() -- TextButton_44.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NSCK_fake_script)()
-local function QZIX_fake_script() -- TextButton_45.LocalScript 
+coroutine.wrap(XNRCRI_fake_script)()
+local function CXXLBFR_fake_script() -- TextButton_45.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_45)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -3750,8 +3752,8 @@ local function QZIX_fake_script() -- TextButton_45.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QZIX_fake_script)()
-local function MLHNZ_fake_script() -- TextButton_46.LocalScript 
+coroutine.wrap(CXXLBFR_fake_script)()
+local function UBPP_fake_script() -- TextButton_46.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_46)
 
 	local color1 = Color3.new(0.666667, 0, 0)
@@ -3795,4 +3797,4 @@ local function MLHNZ_fake_script() -- TextButton_46.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MLHNZ_fake_script)()
+coroutine.wrap(UBPP_fake_script)()
