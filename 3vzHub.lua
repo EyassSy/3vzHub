@@ -10,9 +10,9 @@ local function DDTFH_fake_script() -- Detecting.LocalScript
 	if game.PlaceId == 2619187362 then
 		wait(5)
 		loadstring(game:HttpGet("https://pastebin.com/raw/4xR3h0BP", true))()
-	elseif game.PlaceId == 286090429 then
+	elseif game.PlaceId == 5617626326 then
 		wait(5)
-		loadstring(game:HttpGet("https://pastebin.com/raw/6Xmai9q7", true))()
+		loadstring(game:HttpGet("https://pastebin.com/raw/irehmUk9", true))()
 	end
 end
 coroutine.wrap(DDTFH_fake_script)()
