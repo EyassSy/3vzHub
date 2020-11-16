@@ -1,4 +1,5 @@
 _G.ToggleColor = Color3.fromRGB(0, 255, 255)
+_G.ButtonColor = Color3.fromRGB(0, 255, 255)
 _G.ButtonTextColor = Color3.fromRGB(24,24,24)
 
 local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
