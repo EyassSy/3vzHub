@@ -7,55 +7,6 @@ local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Aika
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 
-local Strength100 = CFrame.new(-295, 70, -165)
-local Strength1K = CFrame.new(-780, 70, -355)
-local Strength10K = CFrame.new(-139, 77, -431)
-local Strength100K = CFrame.new(-960, 70, -171)
-local Strength5M = CFrame.new(-666, 77, -1059)
-local Strength500M = CFrame.new(122, 70, -511)
-local Strength50B = CFrame.new(-1613, 54, -1778)
-local Strength30T = CFrame.new(-1398, 95, -1878)
-local Strength10Qa = CFrame.new(1144, 58, 944)
-local Strength25Qi = CFrame.new(1004, 58, 843)
-local Strength10Sp = CFrame.new(-1732, 52, 624)
-local Strength5N = CFrame.new(-1661, 52, 745)
-local Strength100Dc = CFrame.new(946, -50, -1897)
-local Strength6Dd = CFrame.new(1148, -50, -1628)
-local Strength150Td = CFrame.new(-1685, 5871, -999)
-local Strength150Qui = CFrame.new(1783, 15295, -1047)
-
-local Endurance100 = CFrame.new(-760,70,-616)
-local Endurance10K = CFrame.new(245, 70, -312)
-local Endurance100K = CFrame.new(195, 61, -230)
-local Endurance5M = CFrame.new(-631, 80, -35)
-local Endurance500M = CFrame.new(-742, 77, -48)
-local Endurance50B = CFrame.new(-1536, 54, -1981)
-local Endurance30T = CFrame.new(-1516, 54, -1696)
-local Endurance10Qa = CFrame.new(1282, 43, 831)
-local Endurance25Qi = CFrame.new(801, 52, 716)
-local Endurance10Sp = CFrame.new(-1593, 52, 856)
-local Endurance5N = CFrame.new(-1770, 52, 635)
-local Endurance100Dc = CFrame.new(1107, -21, -1842)
-local Endurance6Dd = CFrame.new(1168, -50, -1972)
-local Endurance150Td = CFrame.new(50, 2848, -645)
-local Endurance150Qui = CFrame.new(-471, 2784, -480)
-
-local Psychic1K = CFrame.new(-883, 71, -435)
-local Psychic10K = CFrame.new(-891, 104, -472)
-local Psychic100K = CFrame.new(179, 43, -515)
-local Psychic5M = CFrame.new(-857, 70, -25)
-local Psychic500M = CFrame.new(379, 161, -518)
-local Psychic50B = CFrame.new(-1484, 56, -1903)
-local Psychic30T = CFrame.new(-1423, 55, -1749)
-local Psychic10Qa = CFrame.new(999, 55, 975)
-local Psychic25Qi = CFrame.new(1014, 217, 857)
-local Psychic10Sp = CFrame.new(-1659, 54, 797)
-local Psychic5N = CFrame.new(-1659, 78, 769)
-local Psychic100Dc = CFrame.new(1318, -50, -1861)
-local Psychic6Dd = CFrame.new(1016, -47, -1653)
-local Psychic150Td = CFrame.new(-592, 2850, -649)
-local Psychic150Qui = CFrame.new(-250, 2872, -965)
-
 local StrengthEnabled = false
 local PsychicEnabled = false
 local EnduranceEnabled = false
@@ -108,6 +59,18 @@ AutoFarm:Toggle("Psychic",function(bool)
     shared.toggle = bool
     print("Psychic "..tostring(shared.toggle))
     PsychicEnabled = bool
+end)
+
+AutoFarm:Button("Collect Chests",function()
+    print("Chests Collected")
+    loadstring(game:HttpGet('https://pastebin.com/raw/ZCHeXdmK'))()
+    loadstring(game:HttpGet('https://pastebin.com/raw/bg2EpAMv'))()
+    loadstring(game:HttpGet('https://pastebin.com/raw/5d5bBc8e'))()
+    loadstring(game:HttpGet('https://pastebin.com/raw/fR9Cbt3m'))()
+    loadstring(game:HttpGet('https://pastebin.com/raw/aAEdFQLG'))()
+    loadstring(game:HttpGet('https://pastebin.com/raw/i7nWgZhh'))()
+    loadstring(game:HttpGet('https://pastebin.com/raw/fnRfr4YF'))()
+    loadstring(game:HttpGet('https://pastebin.com/raw/xdZndwim'))()
 end)
 
 Quests:Button("DailyStrength",function()
@@ -176,161 +139,108 @@ Other:Toggle("AutoBuy LightDarkChest",function(bool)
     AutoBuyLightDarkChestEnabled = bool
 end)
 
-Teleport:Label("If u died then u gotta excute the script again to teleport ;(",{
-    TextSize = 13;
-    TextColor = Color3.fromRGB(85, 255, 255);
-    BgColor = Color3.fromRGB(40,40,40);
-    
-}) 
-
 Teleport:Dropdown("Strength",{"100+", "1K+", "10K+", "100K+", "5M+", "500M+", "50B+", "30T+", "10Qa+", "25Qi+", "10Sp+", "5N+", "100Dc+", "6Dd+", "150Td+", "150Qui+"},false,function(args)
     wait(0.1)
     if args == "100+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Strength100
+        loadstring(game:HttpGet('https://pastebin.com/raw/ntQNgGj6'))()
     elseif args == "1K+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Strength1K
+        loadstring(game:HttpGet('https://pastebin.com/raw/XV3M924q'))()
     elseif args == "10K+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Strength10K
+        loadstring(game:HttpGet('https://pastebin.com/raw/JFDesQXA'))()
     elseif args == "100K+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Strength100K
+        loadstring(game:HttpGet('https://pastebin.com/raw/UJk08JtV'))()
     elseif args == "5M+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Strength5M
+        loadstring(game:HttpGet('https://pastebin.com/raw/AhVpQ6Fs'))()
     elseif args == "500M+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Strength500M
+        loadstring(game:HttpGet('https://pastebin.com/raw/ib8Mc6t9'))()
     elseif args == "50B+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Strength50B
+        loadstring(game:HttpGet('https://pastebin.com/raw/xTDRbvHv'))()
     elseif args == "30T+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Strength30T
+        loadstring(game:HttpGet('https://pastebin.com/raw/FCHJeBdN'))()
     elseif args == "10Qa+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Strength10Qa
+        loadstring(game:HttpGet('https://pastebin.com/raw/HrdE5pV5'))()
     elseif args == "25Qi+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Strength25Qi
+        loadstring(game:HttpGet('https://pastebin.com/raw/G7cauuVC'))()
     elseif args == "10Sp+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Strength10Sp
+        loadstring(game:HttpGet('https://pastebin.com/raw/NA3abW9H'))()
     elseif args == "5N+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Strength5N
+        loadstring(game:HttpGet('https://pastebin.com/raw/7N3y8tBm'))()
     elseif args == "100Dc+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Strength100Dc
+        loadstring(game:HttpGet('https://pastebin.com/raw/8NLFweHe'))()
     elseif args == "6Dd+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Strength6Dd
+        loadstring(game:HttpGet('https://pastebin.com/raw/7JQUxVmV'))()
     elseif args == "150Td+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Strength150Td
+        loadstring(game:HttpGet('https://pastebin.com/raw/4u8dQ2MY'))()
     elseif args == "150Qui+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Strength150Qui
+        loadstring(game:HttpGet('https://pastebin.com/raw/L7K32LX7'))()
     end
 end)
 
 Teleport:Dropdown("Endurance",{"100+", "10K+", "100K+", "5M+", "500M+", "50B+", "30T+", "10Qa+", "25Qi+", "10Sp+", "5N+", "100Dc+", "6Dd+", "150Td+", "150Qui+"},false,function(args)
     if args == "100+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Endurance100
+        loadstring(game:HttpGet('https://pastebin.com/raw/DvkN4i9f'))()
     elseif args == "10K+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Endurance10K
+        loadstring(game:HttpGet('https://pastebin.com/raw/TT4dHYwN'))()
     elseif args == "100K+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Endurance100K
+        loadstring(game:HttpGet('https://pastebin.com/raw/PB7tefSJ'))()
     elseif args == "5M+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Endurance5M
+        loadstring(game:HttpGet('https://pastebin.com/raw/pWu0iPCS'))()
     elseif args == "500M+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Endurance500M
+        loadstring(game:HttpGet('https://pastebin.com/raw/VDztWKac'))()
     elseif args == "50B+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Endurance50B
+        loadstring(game:HttpGet('https://pastebin.com/raw/8T0d6QT7'))()
     elseif args == "30T+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Endurance30T
+        loadstring(game:HttpGet('https://pastebin.com/raw/U9BQ8YkX'))()
     elseif args == "10Qa+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Endurance10Qa
+        loadstring(game:HttpGet('https://pastebin.com/raw/kh0VknxN'))()
     elseif args == "25Qi+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Endurance25Qi
+        loadstring(game:HttpGet('https://pastebin.com/raw/As38hkzP'))()
     elseif args == "10Sp+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Endurance10Sp
+        loadstring(game:HttpGet('https://pastebin.com/raw/ifi3d4Fz'))()
     elseif args == "5N+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Endurance5N
+        loadstring(game:HttpGet('https://pastebin.com/raw/vAk4GVLY'))()
     elseif args == "100Dc+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Endurance100Dc
+        loadstring(game:HttpGet('https://pastebin.com/raw/FxrB9rN2'))()
     elseif args == "6Dd+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Endurance6Dd
+        loadstring(game:HttpGet('https://pastebin.com/raw/h9LErrQk'))()
     elseif args == "150Td+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Endurance150Td
+        loadstring(game:HttpGet('https://pastebin.com/raw/RXFd6CW5'))()
     elseif args == "150Qui+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Endurance150Qui
+        loadstring(game:HttpGet('https://pastebin.com/raw/6Dd7MnQu'))()
     end
 end)
 
 Teleport:Dropdown("Psychic",{"1K+","10K+", "100K+", "5M+", "500M+", "50B+", "30T+", "10Qa+", "25Qi+", "10Sp+", "5N+", "100Dc+", "6Dd+", "150Td+", "150Qui+"},false,function(args)
     if args == "1K+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Psychic1K
+        loadstring(game:HttpGet('https://pastebin.com/raw/EfijvV9A'))()
     elseif args == "10K+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Psychic10K
+        loadstring(game:HttpGet('https://pastebin.com/raw/VB0Wdn5k'))()
     elseif args == "100K+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Psychic100K
+        loadstring(game:HttpGet('https://pastebin.com/raw/u0YjdHwd'))()
     elseif args == "5M+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Psychic5M
+        loadstring(game:HttpGet('https://pastebin.com/raw/AKJMS5dN'))()
     elseif args == "500M+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Psychic500M
+        loadstring(game:HttpGet('https://pastebin.com/raw/mmJjEZ0k'))()
     elseif args == "50B+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Psychic50B
+        loadstring(game:HttpGet('https://pastebin.com/raw/eSmSBp68'))()
     elseif args == "30T+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Psychic30T
+        loadstring(game:HttpGet('https://pastebin.com/raw/qUFMdHR7'))()
     elseif args == "10Qa+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Psychic10Qa
+        loadstring(game:HttpGet('https://pastebin.com/raw/mHvnEdK4'))()
     elseif args == "25Qi+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Psychic25Qi
+        loadstring(game:HttpGet('https://pastebin.com/raw/A5E8JnvL'))()
     elseif args == "10Sp+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Psychic10Sp
+        loadstring(game:HttpGet('https://pastebin.com/raw/9VFgW6qQ'))()
     elseif args == "5N+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Psychic5N
+        loadstring(game:HttpGet('https://pastebin.com/raw/6vTmWeLd'))()
     elseif args == "100Dc+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Psychic100Dc
+        loadstring(game:HttpGet('https://pastebin.com/raw/jTdPNUa5'))()
     elseif args == "6Dd+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Psychic6Dd
+        loadstring(game:HttpGet('https://pastebin.com/raw/guvxAYif'))()
     elseif args == "150Td+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Psychic150Td
+        loadstring(game:HttpGet('https://pastebin.com/raw/T1bdHpzA'))()
     elseif args == "150Qui+" then
-        humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        pl.CFrame = Psychic150Qui
+        loadstring(game:HttpGet('https://pastebin.com/raw/1t7WYDnG'))()
     end
 end)
 
