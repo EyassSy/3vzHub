@@ -4,6 +4,13 @@ _G.ButtonTextColor = Color3.fromRGB(24,24,24)
 
 local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
 
+local VirtualUser=game:service'VirtualUser'
+	game:service'Players'.LocalPlayer.Idled:connect(function()
+	warn("anti-afk")
+	VirtualUser:CaptureController()
+	VirtualUser:ClickButton2(Vector2.new())
+end)
+
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 
